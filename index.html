@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forum - Discussion</title>
+    <link rel="shortcut icon" href="images.jpeg" type="x-icon">
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="head">
+      <h1>Forum Discussion Board</h1>
+    </div>
+    <div class="container">
+      <div class="new-thread">
+        <h2>Create New Thread</h2>
+        <input type="text" id="thread-title" placeholder="Thread Title" required />
+        <textarea id="thread-content" placeholder="Thread Content" required ></textarea>
+        <button onclick="createThread()">Create Thread</button>
+      </div>
+      <h2>All Threads</h2>
+      <div id="thread-list"></div>
+    </div>
+  </body>
+</html>
